@@ -17,6 +17,11 @@
     border: none;
     margin: 20px;
 }
+#card-des{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
 
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -28,10 +33,7 @@ nav {
     align-items: center;
 
 }
-nav h3{
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 nav>ul{
     display: flex;
     gap: 20px;
@@ -59,7 +61,7 @@ nav a{
 }
 .descripion{
     color: #727272; 
-    text-align: center;
+    text-align: justify;
     font-size: 1rem;
     font-weight: 400;
 }
@@ -75,7 +77,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 85px;
+    margin: 85px 0;
     border: 2px solid goldenrod;
 }
 
@@ -109,6 +111,35 @@ main{
     font-weight: 700;
 }
 
+
+
+.fact-card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.fact-card-container .cards{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+
+}
+.fact-card-container .card-stats{
+font-size: 2.8rem;
+color: #424242;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.fact-card-container .card-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+.description{
+padding: 10px;
+}
+
 @media screen and (max-width: 576px)
 {
     header{
@@ -140,6 +171,10 @@ main{
     }
     .teams-img-container img{
     width: 100%;
+    }
+    .fact-card-container{
+        flex-direction: column;
+        gap: 20px;
     }
 
 }
