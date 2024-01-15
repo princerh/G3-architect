@@ -321,6 +321,12 @@ footer {
         margin-left: 10px;
         margin-right: 10px;
     }
+    .feacharges{
+        padding: 20px;
+    }
+    .feacharge-content .section-title{
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
